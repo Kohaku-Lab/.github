@@ -43,8 +43,8 @@ Led by **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** (Shih-Ying Yeh) a
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS)** ⭐ 2.5K | Lora beYond Conventional methods — advanced PEFT techniques for neural networks | `Python` `PyTorch` |
-| **[TIPO](https://github.com/KohakuBlueleaf/z-tipo-extension)** | Text to Image with Text Presampling for Prompt Optimization (accepted at ICLR 2025, 2M+ downloads) | `Python` `LLM` |
+| **[LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS)** ⭐ 2.5K | Lora beYond Conventional methods — advanced PEFT techniques for neural networks(accepted at ICLR 2024) | `Python` `PyTorch` |
+| **[TIPO](https://github.com/KohakuBlueleaf/z-tipo-extension)** | Text to Image with Text Presampling for Prompt Optimization (accepted at ICLR 2026, 2M+ downloads) | `Python` `LLM` |
 | **[HDM](https://github.com/KohakuBlueleaf/HDM)** | Home-trained text-to-image diffusion models on consumer hardware | `Python` `Diffusion` |
 | **[PixelOE](https://github.com/KohakuBlueleaf/PixelOE)** | Detail-oriented pixelization via contrast-aware outline expansion — no AI/NN required | `Python` `CV` |
 
