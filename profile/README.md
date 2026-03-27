@@ -37,26 +37,43 @@ Led by **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** (Shih-Ying Yeh) a
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
+
+### 🔬 Research
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS)** ⭐ 2.5K | Lora beYond Conventional methods — advanced PEFT techniques for neural networks with improved efficiency and quality | `Python` `PyTorch` |
-| **[KohakuHub](https://github.com/KohakuBlueleaf/KohakuHub)** | Self-hosted HuggingFace alternative with model hosting, versioning, and collaboration | `Python` `FastAPI` `Vue 3` `PostgreSQL` |
+| **[LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS)** ⭐ 2.5K | Lora beYond Conventional methods — advanced PEFT techniques for neural networks | `Python` `PyTorch` |
+| **[TIPO](https://github.com/KohakuBlueleaf/z-tipo-extension)** | Text to Image with Text Presampling for Prompt Optimization (accepted at ICLR 2025, 2M+ downloads) | `Python` `LLM` |
+| **[HDM](https://github.com/KohakuBlueleaf/HDM)** | Home-trained text-to-image diffusion models on consumer hardware | `Python` `Diffusion` |
+| **[PixelOE](https://github.com/KohakuBlueleaf/PixelOE)** | Detail-oriented pixelization via contrast-aware outline expansion — no AI/NN required | `Python` `CV` |
+
+### 🤖 LLM Systems & Agents
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[KohakuRAG](https://github.com/Kohaku-Lab/KohakuRAG)** ⭐ 60 | Hierarchical RAG framework — documents → tree structure → multi-level retrieval with ensemble voting | `Python` `SQLite` `Jina` |
+| **[KohakuTerrarium](https://github.com/Kohaku-Lab/KohakuTerrarium)** | LLM agent sandbox and execution environment | `Python` |
+
+### 🏗️ Infrastructure & MLOps
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[KohakuHub](https://github.com/KohakuBlueleaf/KohakuHub)** | Self-hosted HuggingFace alternative — Git-like versioning, S3 storage, LFS, org management | `Python` `FastAPI` `Vue 3` `PostgreSQL` |
 | **[KohakuBoard](https://github.com/KohakuBlueleaf/KohakuBoard)** | High-efficiency local/self-hosted ML experiment tracking & visualization | `Python` `Vue 3` |
-| **[HDM](https://github.com/KohakuBlueleaf/HDM)** | Home-trained text-to-image diffusion model — quality models on consumer hardware | `Python` `Diffusion` |
-| **[KohakuVault](https://github.com/KohakuBlueleaf/KohakuVault)** | Simple single-file key-value store DB built on SQLite | `Rust` |
 
-> More projects & research at [kohaku-lab.org/projects](https://kohaku-lab.org/projects)
+### 🗄️ Database
 
----
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[KohakuVault](https://github.com/KohakuBlueleaf/KohakuVault)** | Simple single-file key-value store DB built on SQLite — used as storage backend in KohakuRAG | `Rust` |
 
-## 🔬 Research Highlights
+### ♟️ Game AI & Hardware
 
-- **PEFT / Parameter-Efficient Fine-Tuning** — LyCORIS pushes the boundaries of LoRA-family methods
-- **Generative Models** — TIPO, Kohaku-XL, HDM: practical text-to-image research
-- **MLOps Tooling** — Self-hosted experiment tracking & model management for real workflows
-- **Open Access Philosophy** — Every model, every tool, every dataset — freely available
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[KohakuBoardGame](https://github.com/KohakuBlueleaf/KohakuBlueleaf)** | Chess AI with NNUE acceleration | `C++` `Python` |
+| **[HakuTPU](https://github.com/KohakuBlueleaf/HakuTPU)** | AI accelerator softcore for Xilinx UltraScale+ FPGAs | `Verilog` `FPGA` |
 
 ---
 
@@ -64,7 +81,7 @@ Led by **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** (Shih-Ying Yeh) a
 
 | | Name | Role | Location |
 |---|------|------|----------|
-| | **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** | Founder & Lead Developer | 🇹🇼 Taiwan |
+|  | **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** | Founder & Lead Developer | 🇹🇼 Taiwan |
 | | **[narugo1992](https://github.com/narugo1992)** | Core Member | |
 | | **[cybermeow](https://github.com/cybermeow)** | Researcher | 🇯🇵 Tokyo |
 | | **[theblackcat](https://github.com/theblackcat)** | Developer | 🇹🇼 Taiwan |
@@ -92,16 +109,14 @@ We're always open to new collaborators. Whether you're a researcher, developer, 
 - 🌐 **Website:** [kohaku-lab.org](https://kohaku-lab.org)
 - 💬 **Discord:** [Join our server](https://discord.gg/WTYhFEM7T5)
 - 📧 **Contact:** [kohaku-lab.org/contact](https://kohaku-lab.org/contact)
-- 🐙 **GitHub:** [github.com/KohakuBlueleaf](https://github.com/KohakuBlueleaf)
+- 🐙 **GitHub:** [github.com/Kohaku-Lab](https://github.com/Kohaku-Lab)
 
 ---
-
-<div align="center">
 
 <sub>Built with ♥ by enthusiasts · Powered by passion, not funding rounds</sub>
 
 <br><br>
 
-<a href="https://kohaku-lab.org">kohaku-lab.org</a> · <a href="https://github.com/KohakuBlueleaf">GitHub</a> · <a href="https://discord.gg/WTYhFEM7T5">Discord</a>
+<a href="https://kohaku-lab.org">kohaku-lab.org</a> · <a href="https://github.com/Kohaku-Lab">GitHub</a> · <a href="https://discord.gg/WTYhFEM7T5">Discord</a>
 
 </div>
