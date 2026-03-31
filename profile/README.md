@@ -27,6 +27,10 @@ We publish research at top venues, build infrastructure we rely on daily, and sh
 
 ---
 
+QQ: 881970728 | Discord1: https://discord.gg/tPBsKDyRR5 | Discord2: https://discord.gg/jHHbTaHV3a
+
+---
+
 ## Who We Are
 
 **Kohaku Lab** is a virtual-first research lab — no office, no corporate structure, just people who love building AI/ML tools and doing research together across time zones.
