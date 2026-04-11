@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Kohaku-Lab/.github/main/images/icon-plan_transparent.png" alt="Kohaku" width="120">
+
 # Kohaku Lab
 
 ### Virtual Open Source AI Research Lab
