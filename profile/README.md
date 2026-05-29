@@ -37,28 +37,40 @@ QQ: 881970728 | Discord1: https://discord.gg/tPBsKDyRR5 | Discord2: https://disc
 
 **Kohaku Lab** is a virtual-first research lab — no office, no corporate structure, just people who love building AI/ML tools and doing research together across time zones.
 
-We publish at top venues (LyCORIS at **ICLR 2024**, TIPO at **ICLR 2026**), build the infrastructure we need (model hosting, cluster management, experiment tracking), create databases and ML utilities, and even play with AI-powered board games. The philosophy is simple: **scratch your own itch**.
+We publish at top venues (LyCORIS at **ICLR 2024**, TIPO at **ICLR 2026**), build the infrastructure we need (an agent framework, model hosting, cluster management, experiment tracking), create databases and ML utilities, and even play with AI-powered board games. The philosophy is simple: **scratch your own itch**.
 
-Led by **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** (Shih-Ying Yeh) and joined by contributors worldwide, we work across the full stack of AI — from neural network research and GPU kernels to production infrastructure and databases.
+Led by **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** (Shih-Ying Yeh) and joined by contributors worldwide, we work across the full stack of AI — from neural network research and GPU/FPGA kernels to production infrastructure, agent systems, and databases.
 
 ---
 
 ## Projects
 
+> Projects under the **[Kohaku-Lab](https://github.com/Kohaku-Lab)** org are the lab's collaborative work; the rest live on **[KohakuBlueleaf](https://github.com/KohakuBlueleaf)**, the founder's account.
+
+### Agent framework — the KohakuTerrarium ecosystem
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[KohakuTerrarium](https://github.com/Kohaku-Lab/KohakuTerrarium)** | General-purpose agent framework + batteries-included app to build, run, and compose self-contained agents ("creatures") into multi-agent "terrariums" | `Python` `Vue 3` |
+| **[kt-biome](https://github.com/Kohaku-Lab/kt-biome)** | Official out-of-the-box creatures, terrariums, and plugin pack — the fastest way to actually use the framework | `Python` |
+| **[TerrariumMarket](https://github.com/Kohaku-Lab/TerrariumMarket)** | Package marketplace for sharing creatures / terrariums / plugins | `Vue` |
+| **[kt-template](https://github.com/Kohaku-Lab/kt-template)** | Starter template for building your own creatures, plugins, and packages | `Python` |
+
 ### Research
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS)** | Lora beYond Conventional methods — comprehensive PEFT library for neural networks (ICLR 2024) | `Python` `PyTorch` |
-| **[TIPO](https://github.com/KohakuBlueleaf/KGen)** | Text to Image with Text Presampling for Prompt Optimization (ICLR 2026) | `Python` `LLM` |
+| **[LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS)** | Lora beYond Conventional methods — comprehensive PEFT library for neural networks (ICLR 2024, 2.5k★) | `Python` `PyTorch` |
+| **[TIPO / KGen](https://github.com/KohakuBlueleaf/KGen)** | Text-to-Image with Text Presampling for Prompt Optimization (ICLR 2026) | `Python` `LLM` |
 | **[HDM](https://github.com/KohakuBlueleaf/HDM)** | Home-made Diffusion Model — training quality T2I models on consumer hardware | `Python` `Diffusion` |
+| **[HakuTPU](https://github.com/KohakuBlueleaf/HakuTPU)** | AI accelerator implementation on Xilinx FPGAs | `Verilog` |
 
-### AI/LLM Systems & Agents
+### AI / LLM systems & agents
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[KohakuRAG](https://github.com/Kohaku-Lab/KohakuRAG)** | Hierarchical RAG framework with tree-structured indexing and single-file SQLite storage | `Python` `SQLite` |
-| **[KohakuTerrarium](https://github.com/Kohaku-Lab/KohakuTerrarium)** | Async-first universal agent framework with YAML-driven config and nested sub-agents | `Python` |
+| **[KohakuRAG](https://github.com/Kohaku-Lab/KohakuRAG)** | Simple hierarchical RAG framework — tree-structured indexing over single-file SQLite storage | `Python` `SQLite` |
+| **[full-self-coding_HCI](https://github.com/Kohaku-Lab/full-self-coding_HCI)** | Experiment: no prompts, no instructions, no plans — 100–1000 AI agents coding in parallel | `TypeScript` |
 
 ### Infrastructure & MLOps
 
@@ -72,13 +84,14 @@ Led by **[KohakuBlueLeaf](https://github.com/KohakuBlueleaf)** (Shih-Ying Yeh) a
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[KohakuVault](https://github.com/KohakuBlueleaf/KohakuVault)** | Single-file key-value store built on SQLite — storage backend for KohakuRAG | `Rust` `Python` |
+| **[KohakuVault](https://github.com/KohakuBlueleaf/KohakuVault)** | Single-file key-value store on SQLite — storage backend for KohakuRAG and KohakuTerrarium sessions | `Rust` `Python` |
 
-### CV/ML Utils
+### CV / ML utilities
 
 | Project | Description | Stack |
 |---------|-------------|-------|
 | **[PixelOE](https://github.com/KohakuBlueleaf/PixelOE)** | Detail-oriented pixelization via contrast-aware outline expansion | `Python` `CV` |
+| **[HakuBooru](https://github.com/KohakuBlueleaf/HakuBooru)** | Text-image dataset maker for anime-style images | `Python` |
 | **[IGS](https://github.com/KohakuBlueleaf/IGS)** | Image Gaussian Splatting | `Python` |
 | **[OptimFactory](https://github.com/KohakuBlueleaf/OptimFactory)** | Optimizer utils with frontier hyperparameter transfer rules | `Python` `PyTorch` |
 | **[SenseCraft](https://github.com/KohakuBlueleaf/SenseCraft)** | Unified perceptual feature loss framework | `Python` `PyTorch` |
