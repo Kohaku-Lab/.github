@@ -1,0 +1,12 @@
+name: Zoomies test job
+on: workflow_dispatch
+permissions: {}
+jobs:
+  hello:
+    runs-on: zoomies-ci
+    timeout-minutes: 5
+    steps:
+      - run: |
+          echo "Hello from $(hostname)"
+          uname -a
+          sleep 5
